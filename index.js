@@ -1,2 +1,2 @@
 require('./src/index')
-console.log('Start WebService VonGlhen')
+console.log('Start WebService!')

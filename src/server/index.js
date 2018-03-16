@@ -10,7 +10,7 @@ import sequelizeModelsMiddleware from './sequelizeModelsMiddleware'
 // const exclusionsAuth = [`${prefix}/login`, '/ping', '/api/cidadeuf']
 
 const server = restify.createServer({
-  name: 'WS CartorioWEB',
+  name: 'Restify SERVER',
   version: '1.0.0'
 })
 server.pre(cors.preflight)
